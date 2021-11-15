@@ -49,7 +49,7 @@ Run the standard tests: `ctest -L "system--pw" --output-on-failure`
 Save the output and submit it (part A).
 
 ### Scoring: 
-- 20 points for all tests passing. However, you need to run the tests on the systems which you report results on for the benchmarks (Tasks 1, 2, 3) . This is to validate that the code executes correctly on that system So if you report results Task 1 on a Skylake, you need to run the standard tests on a Skylake to get these points. So 20/3 points for running the tests on the system you used for Tasks 1, 2, and 3. 
+- 20 points for all tests passing. However, you need to run the tests on the systems which you report results on for the benchmarks (Tasks 1, 2, 3) . This is to validate that the code executes correctly on that system. For example, if you report results for Task 1 on a Skylake, you need to run the standard tests on a Skylake to get these points. So 20/3 points for running the tests on the system you used for Tasks 1, 2, and 3. 
 
 ## Task 1: Benchmark run with the ausurf input
 Run the ausurf input: `ausurf.in`
