@@ -27,6 +27,8 @@ For scoring, we measure three things: correctness, time to solution, and cost in
 - Time to solution: This is the **wall** time (not CPU time) printed out at the end of the output. `PWSCF        :  22m25.98s CPU  13m11.91s WALL`
 - Cost: This measures how well you used the Azure budget on the computation. It is the (Time to solution) * (Cost on Azure to run the whole computation). For example, if it cost $2/hour to run on a Skylake, and it took 4 hours to run the benchmark, then the cost is ($2/hour)*(4 hours) = $8. 
 
+**For scoring task 1,2,3, we only accept 1 run. Please make your own trade-offs.**
+
 ## Do's and Don'ts
 You may
 - Use mpirun options to control the number of MPI ranks, resource mapping and affinity.
